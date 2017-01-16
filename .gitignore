@@ -1,0 +1,4 @@
+.idea
+node_modules/
+react-id-decorator-*.tgz
+build/

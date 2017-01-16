@@ -1,0 +1,1 @@
+export { Decorate } from './decorate/Id';

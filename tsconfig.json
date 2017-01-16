@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "CommonJS",
+    "target": "es5",
+    "noImplicitAny": true,
+    "outDir": "build",
+    "jsx": "react"
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "react-id-decorator",
+  "version": "0.1.0",
+  "description": "Generate globally unique identifiers for React components.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rimraf build",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitionaire/react-id-decorator.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Johann Boehler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitionaire/react-id-decorator/issues"
+  },
+  "homepage": "https://github.com/bitionaire/react-id-decorator#README.md",
+  "dependencies": {
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.0",
+    "rimraf": "^2.5.4",
+    "typescript": "^2.1.5"
+  }
+}
